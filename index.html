@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="default">
+		<meta http-equiv="Content-Security-Policy" content="default-src * 'self'
+			'unsafe-inline' 'unsafe-eval' data: gap:">
+		<title>FooX</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Prompt:300,400,500,600,700,800,900|Playfair+Display:400,700,900"
+			rel="stylesheet">
+		<link rel="stylesheet" href="css/framework7.min.css">
+		<link rel="stylesheet" href="css/framework7-icons.css">
+		<link rel="stylesheet" href="css/themify-icons.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/customcss.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	</head>
+	<body>
+		<div id="app">
+
+			<div class="view view-main view-init ios-edges" data-url="/">
+				<div class="page page-home">
+					<!-- navbar -->
+					<div class="white navbar navbar-home">
+						<div class="white border-top navbar-inner mb-1">
+							<div class="block">
+								<div class="row">
+									<div class="col-20">
+										<div class="row justify-content-center pt-3">
+											<a href="/pages/" class="">
+												<i class="location ti-reddit"></i>
+											</a>
+										</div>
+
+									</div>
+									<div class="col-20">
+										<div class="row justify-content-center pt-3">
+											<a href="/cart/" class="">
+												<i class="location ti-shopping-cart"></i>
+											</a>
+										</div>
+
+									</div>
+									<div class="col-20">
+										<div class="row justify-content-center pt-3"><a href="/search/"
+												class="">
+												<i class="location ti-search"></i>
+											</a></div>
+
+									</div>
+									<div class="col-20">
+										<div class="row justify-content-center pt-3">
+											<a href="/menu-category/" class="">
+												<i class="location ti-layout-sidebar-2"></i>
+											</a>
+										</div>
+
+									</div>
+									<div class="col-20">
+										<div class="row justify-content-center pt-3">
+											<a href="/login/" class="">
+												<i class="location ti-user"></i>
+											</a>
+										</div>
+
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+						<!-- <div style="padding: 10px;"class="orange navbar-inner">
+						<div class="block">
+							<div class=" row">
+								<div style="padding-bottom: 10px;" class=" col-20"><br>
+									<a href="/pages/" class="link">
+										
+									<span style="color:white; font-size:10px;">POST</span>
+									
+										
+									</a>
+								</div>
+								<div class="col-20"><br><br>
+									<a href="/pages/" class="link">
+										<span style="color:white; font-size:10px;">CART</span>
+										
+											
+										</a>
+								</div>
+								<div class="col-20">
+									<a href="/search/" class="link">
+										<i class="ti-search"></i>
+									</a>
+								</div>
+								<div class="col-20">
+									<a href="/menu-category/" class="link">
+										<i class="ti-layout-sidebar-2"></i>
+									</a>
+								</div>
+								<div class="col-20">
+									<a href="/reservation/" class="link">
+										<i class="ti-user"></i>
+									</a>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div> -->
+					</div>
+					<!-- end navbar -->
+					<div class="page-content">
+
+						<!-- title header -->
+						<div class="pb-0 pt-2 title-header">
+							<div class="container">
+								<div class="p-0 row">
+									<div class="col-70">
+										<!-- logos -->
+										<div class="logos">
+											<img class="page_logo_size mt-0 logos" src="images/logo-foox.jpeg"
+												alt="">
+										</div>
+										<!-- end logos -->
+									</div>
+									<div class="col-30">
+										<!-- icon search -->
+										<div class="mr-4 mt-3 icon-search">
+											<a href="/search/"><i class="ti-search"></i></a>
+										</div>
+										<!-- end icon search -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end title header -->
+						<!--location-->
+						<div class="p-2 border-top title-header">
+							<div class="container">
+								<div class="p-0 row">
+									<div class="col-1">
+										<!-- logos -->
+										<div class="logos">
+											<span class="orange-text"><i class="ti-location-pin"></i></span>
+										</div>
+
+										<!-- end logos -->
+									</div>
+									<div class="col-7">
+										<div class="logos">
+											Add location for better performance
+										</div>
+									</div>
+
+									<div class="col-4">
+										<!-- icon search -->
+										<div class="icon-search">
+											<a href="#">
+												<button class="orange-location-edit">Edit</button>
+											</a>
+										</div>
+										<!-- end icon search -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--location end-->
+						<!-- restaurant home -->
+						<div style="background:#eceff1;" class="restaurant-home segments
+							border-bottom">
+							<div class="section-title">
+								<h3><span class="heading_text">Restaurant</span>
+									<a href="/restaurant/" class="see-all-link"><span
+											class="orange-text-see-all">See All</span></a>
+								</h3>
+							</div>
+							<div data-space-between="10" data-slides-per-view="auto"
+								class="swiper-container swiper-init demo-swiper-auto">
+								<div class="swiper-wrapper">
+
+
+
+									<div style="width:fit-content!important;" class="top_res swiper-slide
+										mr-0">
+										<div style="width: fit-content;" class="content m-0">
+											<div class="card" style="width: 8rem;">
+												<div class="image-fluid"><img src="images/restaurant1.jpg" alt=""></div>
+												<div class="text-center m-1">
+													<a href="/restaurant-single/"><span class="hotel_name_style">Yumy
+															de Resto</span></a><br>
+													<span class=""><i class="location ti-location-pin"></i> Rio0897 de
+														Janeiro, Brazil</span>
+
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+									<div style="width:fit-content!important;" class="top_res swiper-slide
+										mr-0">
+										<div style="width: fit-content;" class="content m-0">
+											<div class="card" style="width: 8rem;">
+												<div class="image-fluid"><img src="images/restaurant1.jpg" alt=""></div>
+												<div class="text-center m-1">
+													<a href="/restaurant-single/"><span class="hotel_name_style">Yumy
+															de Resto</span></a><br>
+													<span class=""><i class="location ti-location-pin"></i> Rio0897 de
+														Janeiro, Brazil</span>
+
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+									<div style="width:fit-content!important;" class="top_res swiper-slide
+										mr-0">
+										<div style="width: fit-content;" class="content m-0">
+											<div class="card" style="width: 8rem;">
+												<div class="image-fluid"><img src="images/restaurant1.jpg" alt=""></div>
+												<div class="text-center m-1">
+													<a href="/restaurant-single/"><span class="hotel_name_style">Yumy
+															de Resto</span></a><br>
+													<span class=""><i class="location ti-location-pin"></i> Rio0897 de
+														Janeiro, Brazil</span>
+
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+									<div style="width:fit-content!important;" class="top_res swiper-slide
+										mr-0">
+										<div style="width: fit-content;" class="content m-0">
+											<div class="card" style="width: 8rem;">
+												<div class="image-fluid"><img src="images/restaurant1.jpg" alt=""></div>
+												<div class="text-center m-1">
+													<a href="/restaurant-single/"><span class="hotel_name_style">Yumy
+															de Resto</span></a><br>
+													<span class=""><i class="location ti-location-pin"></i> Rio0897 de
+														Janeiro, Brazil</span>
+
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+									<div style="width:fit-content!important;" class="top_res swiper-slide
+										mr-0">
+										<div style="width: fit-content;" class="content m-0">
+											<div class="card" style="width: 8rem;">
+												<div class="image-fluid"><img src="images/restaurant1.jpg" alt=""></div>
+												<div class="text-center m-1">
+													<a href="/restaurant-single/"><span class="hotel_name_style">Yumy
+															de Resto</span></a><br>
+													<span class=""><i class="location ti-location-pin"></i> Rio0897 de
+														Janeiro, Brazil</span>
+
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+									<div style="width:fit-content!important;" class="top_res swiper-slide
+										mr-0">
+										<div style="width: fit-content;" class="content m-0">
+											<div class="card" style="width: 8rem;">
+												<div class="image-fluid"><img src="images/restaurant1.jpg" alt=""></div>
+												<div class="text-center m-1">
+													<a href="/restaurant-single/"><span class="hotel_name_style">Yumy
+															de Resto</span></a><br>
+													<span class=""><i class="location ti-location-pin"></i> Rio0897 de
+														Janeiro, Brazil</span>
+
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- end restaurant home -->
+
+						<!-- slider -->
+						<!-- <div class="slider">
+							<div data-space-between="10" data-slides-per-view="auto"
+								class="swiper-container swiper-init demo-swiper-auto">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="content">
+											<div class="mask"></div>
+											<img src="images/slider1.jpg" alt="">
+											<div class="caption">
+												<a href="/menu-single/"><h4>Fresh Grilled Salmon</h4></a>
+												<span>ABCD Restaurant</span>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="content">
+											<div class="mask"></div>
+											<img src="images/slider2.jpg" alt="">
+											<div class="caption">
+												<a href="/menu-single/"><h4>Minced Chicken Meat</h4></a>
+												<span>Yumy de Resto</span>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="content">
+											<div class="mask"></div>
+											<img src="images/slider3.jpg" alt="">
+											<div class="caption">
+												<a href="/menu-single/"><h4>Fresh Vegetable Burgers</h4></a>
+												<span>Special Night Cafe</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<!-- end slider -->
+
+						<!-- chef home -->
+						<!-- <div class="chef-home segments">
+							<div class="container">
+								<div class="section-title">
+									<h3>Chef
+										<a href="/chef/" class="see-all-link">See All</a>
+									</h3>
+								</div>
+								<div class="row">
+									<div class="col-20">
+										<div class="">
+											<img src="images/chef-small1.jpg" alt="">
+											<div class="title-name">
+												<h6>James</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-20">
+										<div class="content">
+											<img src="images/chef-small2.jpg" alt="">
+											<div class="title-name">
+												<h6>Victor</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-20">
+										<div class="content">
+											<img src="images/chef-small3.jpg" alt="">
+											<div class="title-name">
+												<h6>Marco</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-20">
+										<div class="content">
+											<img src="images/chef-small4.jpg" alt="">
+											<div class="title-name">
+												<h6>Luke</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-20">
+										<div class="content">
+											<img src="images/chef-small5.jpg" alt="">
+											<div class="title-name">
+												<h6>Powell</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<!-- end chef home -->
+
+
+
+						<!-- popular menu -->
+						<div class="popular-menu">
+							<div class="p-4">
+								<div class="ml-0 section-title">
+									<h3><span class="heading_text">Near You</span>
+										<a href="/popular-menu/" class="see-all-link"><span
+												class="orange-text-see-all">See All</span></a>
+									</h3>
+								</div>
+								<div class="row">
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Vishal
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Lokesh
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Gopi
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Dev
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">sasi
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Varun
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Malavika
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Rakshna
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Ramya
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-50">
+										<div class="content">
+											<img src="images/menu2.jpg" alt="">
+											<div class="p-2">
+												<a href="/restaurant-single/"><span class="hotel_name_style_big">Kumar
+														restaurant</span></a><br>
+												<span class=""><i class="location ti-location-pin"></i> Rio de
+													Janeiro, California</span>
+												<p><span class="green">Open</span> 12.00 PM</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end popular menu -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/framework7.js"></script>
+		<script src="js/routes.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

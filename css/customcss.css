@@ -1,0 +1,248 @@
+.orange-text{
+    color:#ff5c00;
+    font-size: 18px;
+}
+.location{
+   
+        color:#ff5c00;
+   
+}
+
+.green{
+    color:rgb(25, 175, 25);
+}
+.white{
+    background-color:white;
+}
+.top_res{
+   width: fit-content!important;
+  
+}
+.orange-text-see-all{
+    color:#ff5c00;
+    font-size: 14px;
+}
+.hotel_name_style_big{
+    font-family:    sans-serif ;
+    /* font-family:   Helvetica;  */
+    color:#ff5c00;
+    
+/* font-family:; */
+/* font-style: normal; */
+/* font-weight: normal; */
+font-size: 17px;
+
+
+}
+.hotel_name_style{
+    font-family:    sans-serif ;
+    /* font-family:   Helvetica;  */
+    color:#ff5c00;
+    
+/* font-family:; */
+/* font-style: normal; */
+/* font-weight: normal; */
+font-size: 15px;
+
+}
+.heading_text{
+   
+     /* font-family:   cambria;  */
+  /* font-family:   Candara; */
+    font-family:    sans-serif ;
+    /* font-family:   Helvetica;  */
+
+    
+/* font-family:; */
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+/* line-height: 38px; */
+
+color: #413737;
+}
+
+.heading_text_small{
+
+font-family:    sans-serif ;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #413737;
+}
+.back {
+    background: #ffa726;
+}
+.orange{
+    background-color:#ff5c00;
+}
+.orange-btn{
+    width: 45px;
+    height: 50px;
+    width:150px;
+    text-align:center;
+    color:white;
+    display:inline-block;
+    margin:0 auto;
+    padding:0;
+    background-color:#ff5c00;
+    border-color:none ;
+    border:0;
+    border-radius: 50px;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.orange-location-edit{
+    width: 45px;
+    height: 30px;
+    width:50px;
+    text-align:center;
+    color:white;
+    display:inline-block;
+    margin:0 auto;
+    padding:0;
+    background-color:#ff5c00;
+    border-color:none ;
+    border:0;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.orange-edit-save-btn{
+    width: 45px;
+    height: 40px;
+    width:100px;
+    text-align:center;
+    color:white;
+    display:inline-block;
+    margin:0 auto;
+    padding:0;
+    background-color:#ff5c00;
+    border-color:none ;
+    border:0;
+    border-radius: 50px;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.orange-suggestion-btn{
+    width: 45px;
+    height: 50px;
+    width:200px;
+    text-align:center;
+    color:white;
+    display:inline-block;
+    margin:0 auto;
+    padding:0;
+    background-color:#ff5c00;
+    border-color:none ;
+    border:0;
+    border-radius: 50px;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.page_logo_size{
+    height:70px;
+
+}
+.light_color{
+    color:#C6C1C1;
+}
+.login_text{
+    position: absolute;
+width: 93px;
+height: 35px;
+
+
+font-family:arial;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+
+color: #413737;
+}
+.button-style { 
+
+    width: 50px; 
+
+    height: 50px; 
+
+    padding: 7px 10px; 
+
+    border-radius: 25px; 
+
+    font-size: 10px; 
+
+    text-align: center; 
+
+}
+
+.size{
+    height:70px;
+}
+
+/* increment button */
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+
+.button-plus {
+  left: -13px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+
+/* end increment button */
